@@ -41,7 +41,7 @@
 	position: absolute;
 	top: 0;
 	left: 390px;
-	animation: sunanimation circle-run 2s infinite;
+	animation: sunanimation 2s infinite;
 }
 .sun{
 	  animation-timing-function:linear;
@@ -65,7 +65,7 @@
 	animation: fishanimation 5s infinite;
 }
 .fish{
-	animation-timing-function: ease-in-out;
+	animation-timing-function: ease;
 }
 .boat{
 	width: 400px;
