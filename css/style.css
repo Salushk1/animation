@@ -1,0 +1,80 @@
+.wraper{
+	/*width: 100%;*/
+	position: relative;
+}
+
+.background-img{
+	background-image: url( ../images/plage-1.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 565px;
+/*	width: 1100px;
+	height:800px ;*/
+	position: absolute;
+
+}
+.bird{
+	width: 80px;
+	height: 50px;
+	position: absolute;
+	top: 10px;
+	left: 800px;
+/*	transform: translate(-50%, -50%) rotate(45deg);*/
+	transition: all 5s ease-in 5s;
+}
+
+/*hover effects*/
+.wraper:hover{
+	cursor: pointer;
+}
+
+/*keyframe style*/
+
+.bird{
+    animation: diagonal 5s infinite;
+}
+
+.sun{
+	width: 200px;
+	height: 100px;
+	position: absolute;
+	top: 0;
+	left: 390px;
+	animation: sunanimation circle-run 2s infinite;
+}
+.sun{
+	  animation-timing-function:linear;
+}
+
+.dolphin{
+	width: 100px;
+	height: 50px;
+	position: absolute;
+	top: 450px;
+	left: 700px;
+	animation: dolphinanimation 5s infinite;
+}
+
+.fish{
+	width: 100px;
+	height: 50px;
+	position: absolute;
+	top: 400px;
+	right: 300px;
+	animation: fishanimation 5s infinite;
+}
+.fish{
+	animation-timing-function: ease-in-out;
+}
+.boat{
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	top: 300px;
+	right:600px ;
+	animation: boatanimation 5s infinite
+}
+.boat{
+	animation-timing-function: ease-in-out;
+}

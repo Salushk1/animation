@@ -1,0 +1,33 @@
+@keyframes diagonal {
+    0%       { transform: translatex(50px) translatey(50px) }
+    50%      { transform: translatex(120px) translatey(120px); }
+    100%     { transform: translatex(50px) translatey(50px) }
+}
+
+@keyframes birdanimation {
+    0% {transform: translateX(300px);}
+    40% {transform: translateX(350px);}
+    50% {transform: translateX(400px);}
+    70% {transform: translateX(600px);}
+    85% {transform: translateX(800px) ;}
+    100% {transform: translateX(900px);}
+}
+
+@keyframes sunanimation /*?*/
+{
+    from  {transform:rotate(0deg);}
+    to  {transform:rotate(360deg);}
+}
+
+@keyframes dolphinanimation{
+    from{ transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+@keyframes boatanimation{
+    from {left: 250px;}
+    to {left: 700px;}
+}
+@keyframes fishanimation{
+    from { right: 300px; }
+    to { right: 800px; }
+}
